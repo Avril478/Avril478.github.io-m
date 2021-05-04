@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Department of Mathematics</title>
+    <link href="kwan380.css" rel="stylesheet" type="text/css">
+    <script src="kwan380.js"></script>
+</head>
+<body>
+
+<ul>
+    <li><a id = home onclick="showHome();">Home</a></li>
+    <li><a id = staff onclick="showStaff();">Staff</a></li>
+    <li><a id = course onclick="showCourse();">Course</a></li>
+    <li><a id = info onclick="showInfo();">Info</a></li>
+
+</ul>
+    <div id="homePage">
+    <h1>Department of Mathematics</h1>
+    <p class="intro"> Our department is one of the most diverse within the University, with our courses connecting a broad range of disciplines and faculties.</p>
+    <img class="logo" src="https://www.cs.auckland.ac.nz/courses/compsci335s2c/lectures/mano/qz/MathLogo.svg" >
+</div>
+
+<div id="stuffPage">
+    <h1>Stuff list</h1>
+    <table id="ourTable" class="ourTable"></table>
+</div>
+
+<div id="coursePage">
+    <h1>course list</h1>
+    <table id="courseTable" class="courseTable"></table>
+</div>
+
+<div id="infoPage">
+    <p id="i"></p>
+    <svg id="svg" viewBox="0 0 200 400" >
+    </svg>
+
+</div>
+
+</body>
+</html>
